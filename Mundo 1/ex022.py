@@ -1,0 +1,11 @@
+nome = str(input('Digite seu nome completo: ')).strip()
+nomeMA = nome.upper()
+print (f'Nome em maiúsculo: {nomeMA}')
+nomeMI = nome.lower()
+print (f'Nome em minúsculo: {nomeMI}')
+nomeSemEspaço = len(nome.replace(' ', ''))
+print (f'Número de letras nesse nome: {nomeSemEspaço}' )
+nomesplit = nome.split()
+nome1 = nomesplit[0]
+print (f'O primeiro nome: {nome1}' )
+print (f'O primeiro nome tem: {len(nome1)} letras')
