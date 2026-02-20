@@ -1,0 +1,6 @@
+n = int(input('Digite um número: '))
+print ('-' * 45)
+print (f'A Tabuada desse número de 1 a 9 é: \n{n} vezes 1 = {n * 1}, {n} vezes 2 = {n * 2}, {n} vezes 3 = {n * 3};')
+print (f'{n} vezes 4 = {n * 4}, {n} vezes 5 = {n * 5}, {n} vezes 6 = {n * 6};')
+print (f'{n} vezes 7 = {n * 7}, {n} vezes 8 = {n * 8}, {n} vezes 9 = {n * 9}.')
+print ('-' * 45)
