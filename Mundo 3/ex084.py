@@ -38,6 +38,6 @@ for pessoa in lista:
         mais_leves.append(pessoa[0])
 
 print(f"Você cadastrou no total {len(lista)} pessoas")
-print(f"As pessoas mais leves são {mais_leves}KG e possuem {menor_peso}KG")
-print(f"As pessoas mais pesadas são {mais_pesados}KG e possuem {maior_peso}KG")
+print(f"As pessoas mais leves são {mais_leves} e possuem {menor_peso}KG")
+print(f"As pessoas mais pesadas são {mais_pesados} e possuem {maior_peso}KG")
 print(lista)
