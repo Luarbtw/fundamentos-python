@@ -7,6 +7,5 @@ for i in range(7):
     else:
         lista[1].append(x)
 
-
 print(f"Os valores pares são: {sorted(lista[0])}")
 print(f"Os valores impares são: {sorted(lista[1])}")
