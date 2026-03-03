@@ -26,12 +26,14 @@ for index, pessoa in enumerate(alunos):
 print("--"*15)
 
 while True:
-    num_aluno = int(input("Deseja ver a nota de qual aluno? [Digite uma letra pra sair]: "))
-    print(f"Notas de {alunos[num_aluno][0]}: {alunos[num_aluno][1]} e {alunos[num_aluno][2]} ")
-    print("--"*15)
-    if type(num_aluno) != int:
+    num_aluno = int(input("Deseja ver a nota de qual aluno? [Digite 999 pra sair]: "))
+    
+    if num_aluno == 999:
         print("Finalizando...")
         break
+
+    print(f"Notas de {alunos[num_aluno][0]}: {alunos[num_aluno][1]} e {alunos[num_aluno][2]} ")
+    print("--"*15)
 
 
 
